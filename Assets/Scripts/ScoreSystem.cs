@@ -66,12 +66,12 @@ public class ScoreSystem : MonoBehaviour
     {
         if (switchHoop == true)
         {
-            Hoop.transform.position = new Vector3(8, 0, 0);
+            Hoop.transform.position = new Vector3(7, 0, 0);
         }
 
         if (switchHoop == false)
         {
-            Hoop.transform.position = new Vector3(-8, 0, 0);
+            Hoop.transform.position = new Vector3(-7, 0, 0);
         }
     }
 
